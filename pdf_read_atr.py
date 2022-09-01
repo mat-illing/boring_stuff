@@ -2,7 +2,7 @@ import PyPDF2
 import re, pyperclip
 
 # creating a pdf file object
-pdfFileObj = open('atradius.pdf', 'rb')
+pdfFileObj = open('atr.pdf', 'rb')
 
 # creating a pdf reader object
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
